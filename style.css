@@ -3,6 +3,7 @@
     padding-top: 0px;
     width: 80%;
     margin-left:10%;
+    margin-bottom: 3%;
 }
 
 .mainHead {
@@ -16,10 +17,13 @@
 }
 
 .mainFoot {
-    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
     width: 80%;
     margin-left: 10%;
     text-align: center;
+    border-top: 1px solid;
+    border-top-color:lightgrey;
 }
 
 h4 {
