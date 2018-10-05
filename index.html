@@ -21,19 +21,19 @@
             <h4><i class="fa fa-list-alt" style="font-size:24px"></i>Search Parameters</h4>
             <form>
                 <label>Search Term:</label><br />
-                <input type="text"><br />
+                <input type="text" id="queryInput"><br />
                 <label>Number of Records to Retrieve:</label><br />
-                <select>
+                <select id="select">
                     <option value="1">1</option>
-                    <option value="5">5</option>
+                    <option selected value="5">5</option>
                     <option value="10">10</option>
                 </select><br />
                 <label>Start Year (Optional):</label><br />
-                <input type="year"><br />
+                <input type="year" id="beginInput"><br />
                 <label>End Year (Optional):</label><br />
-                <input type="year"><br />
-                <button type=" button"><i class="fa fa-search"></i>Search</button>
-                <button type="button"><i class="fa fa-trash"></i>Clear</button>
+                <input type="year" id="endInput"><br />
+                <button type=" button" id="search"><i class="fa fa-search"></i>Search</button>
+                <button type="button" id="clear"><i class="fa fa-trash"></i>Clear</button>
             </form>
         </div>
         <div>
@@ -48,6 +48,9 @@
 
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 
 </body>
 
